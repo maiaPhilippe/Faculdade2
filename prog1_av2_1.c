@@ -12,6 +12,7 @@ int main(void) {
     count = 0;
     i = 0;
     change = 0;
+    printf("\nOla meu nome e Philippe Maia e este programa pode ser visto no seguinte endereço do github:\n https://github.com/maiaPhilippe/trabalhoAv2/blob/master/prog1_av2_1.c\n");
     for(count = 0 ; count < 20 ; count++) {
         printf("\nNome do Aluno:\n");
         scanf("%s", alunos[count].nome) ; 
